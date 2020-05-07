@@ -3,31 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900|Ubuntu" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!-- hoja de estilos, boostra-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!--hoja de estilos, personalizada -->
     <link rel="stylesheet" href="css/custom.css">
-    <title>Document</title>
+    <title>Rio Cuarto 420 24/7</title>
 </head>
 <body>
     <!--clase navbar de boostrap-->
-    <nav class="navbar navbar-light" style="background-color:greenyellow;"> 
-        <a class="navbar-brand" href="#"> 
-        <img src="images/logo.png" alt=""> 
-        <ul class="nav justify-content-end">
-            <p class="navbar-text navbar-right"> <a href="#" class="navbar-link">faqs </a></p><!--separar un poco mas los links-->
-            <p class="navbar-text navbar-right"> <a href="#" class="navbar-link">products & descriptions</a></p>       
-        </ul>
-    </nav>
-  
-      <div class="cointainer-fluid">
+    <div class="nav-home ">
+      <nav class="navbar navbar-light bg-dark pt-3 pl-3"> 
+          <div>
+            <div > <a href="#"><img src="images/logo.png"></a></div>
+            <div class="w-100"></div>
+            <div class= "col"> <h5 class="text-light">Rio Cuarto 420 24/7</h5></div>
+          </div>
+          <div>
+            <ul class="nav justify text-align">
+              <li class="nav-item"> <a href="#" class="nav-link text-light h6">Inicio</a> </li> <!--el text-light cambia el color-->
+              <li class="nav-item"> <a href="#" class="nav-link  text-light h6">Información</a> </li>
+              <li class="nav-item"> <a href="#" class="nav-link text-light h6">Servicios</a> </li>
+              <li class="nav-item"> <a href="#" class="nav-link text-light h6">Preguntas frecuentes</a> </li>
+              <li class="nav-item my-auto pl-3"> <button type="button" class="btn btn-light"><p class="h7 my-auto">Iniciar sesión</p></button></li>
+              <li class="nav-item my-auto pl-3"> <button type="button" class="btn btn-light"><p class="h7 my-auto">registrarse</p></button></li>    
+          </div>
+      </nav>  
+      <div class="bg-dark home ">
         <div class="row">
-          <div class = "col-4 producto1"><img src = images/box1.png class = "responsive"></div>
-        </div>
-        <div class="row">
-          <div class = "col-12 producto1"> <img src = images/box1.png class = "responsive"></div>
-        </div>
+          <div class="col-lg-6 my-auto">
+            <h1 class="text-light"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <div class="text-center">
+              <button type="button" class="btn btn-lg btn-light btn-primary align-center w-75">Buscá tu vuelo ahora</button>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="img-box">
+              <img src="images/airplane.png">
+            </div>
+          </div>
+        </div>        
+    </div>
+ <!-- Footer -->
+<footer class="page-footer font-small bg-dark">
 
-  
-</body>
+  <!-- Footer Elements -->
+  <div class="container">
+
+    <!-- Grid row-->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-12 py-5">
+        <div class="mb-5 flex-center">
+
+          <!-- Facebook -->
+          <a class="fb-ic">
+            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!-- Twitter -->
+          <a class="tw-ic">
+            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!-- Google +-->
+          <a class="gplus-ic">
+            <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Linkedin -->
+          <a class="li-ic">
+            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Instagram-->
+          <a class="ins-ic">
+            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Pinterest-->
+          <a class="pin-ic">
+            <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+          </a>
+        </div>
+      </div>
 </html>
