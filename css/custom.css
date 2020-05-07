@@ -22,6 +22,10 @@
     -ms-filter: "FlipH";
 }
 
+#logo_img{
+    width: 8%;
+}
+
 .img-box{
     text-align: right;
 }
@@ -30,5 +34,5 @@
 }
 
 .navbar{
-    padding: 4% 5% 1% 5%;
+    padding: 2% 3% 1% 3%;
 }
