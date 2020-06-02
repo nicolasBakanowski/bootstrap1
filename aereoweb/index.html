@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900|Ubuntu" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- hoja de estilos, boostra-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">  
+    <!--hoja de estilos, personalizada -->
+    <link rel="stylesheet" href="css/custom.css">
+    <title>Rio Cuarto </title>
+</head>
+<body>
+  <!--clase navbar de boostrap-->
+  <div class="nav-home">
+    <nav class="navbar navbar-light bg-primary"> 
+      <div class ="d-flex">
+        <a href="#"><img id="logo_img" src="images/logo.png"></a>
+        <h4 class="text-light my-auto">Rio Cuarto</h4>
+      </div>
+        <div>
+          <ul class="nav justify-content-start">
+            <li class="nav-item"> <a href="#" class="nav-link text-light h5">Inicio</a> </li> <!--el text-light cambia el color-->
+            <li class="nav-item"> <a href="paginaError.html" target="_blank" class="nav-link text-light h5">Información</a> </li>
+            <li class="nav-item"> <a href="paginaTermCond.html" target="_blank" class="nav-link text-light h5">Terminos y condiciones</a> </li>
+            <li class="nav-item"> <a href="paginaFaqs.html" target="_blank" class="nav-link text-light h5">Preguntas frecuentes</a> </li>
+            <li class="nav-item my-auto pl-3"> <button id="myBtn" type="button" class="btn btn-light"><p class="h5 my-auto">Iniciar sesión</p></button></li>
+          </ul>
+        </div>
+    </nav>  
+    <div class="bg-dark home">
+      <div class="row">
+        <div class="col-lg-6 my-auto">
+          <h1 class="text-light text-center"> La mejor página para comprar tus pasajes hacia los destinos que tu elijes. Viaja seguro, rapido y facil. </h1>
+          <div class="text-center">
+            <button id ="reservabtn"type="button" class="btn btn-lg btn-light btn-primary align-center w-75">Buscá tu vuelo ahora</button>
+          </div>
+          </div>
+        <div class="col-lg-6">
+          <div class="img-box">
+            <img src="images/airplane.png">
+          </div>
+        </div>
+      </div>        
+    </div>
+  </div>  
+  <!-- services  -->
+  <div class="bg-secondary p-5">
+    <div class="row p-5 text-center">
+      <div class="col-lg-4">
+        <div class="shadow card bg-secondary mx-auto" style="width: 18rem;" >
+          <img src="images/servicio1.jpeg" class="card-img-top" alt="...">
+          <div class="shadow card-body">
+            <h5 class="card-title text-light">Compromiso</h5>
+            <p class="card-text text-light">Con nuestros clientes para darles lo mejor.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="shadow card bg-secondary mx-auto" style="width: 18rem;" >
+          <img src="images/billetera.png" class="card-img-top " alt="...">
+          <div class="shadow card-body">
+            <h5 class="card-title text-light">Economico</h5>
+            <p class="card-text text-light">Para usted y su billetera.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="shadow card bg-secondary mx-auto" style="width: 20rem;" >
+          <img src="images/milleniumFalcon.png" class="card-img-top " alt="...">
+          <div class="shadow card-body">
+            <h5 class="card-title text-light">Velocidad</h5>
+            <p class="card-text text-light">Es la que tienen nuestros aviones.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer id="footer" class="bg-dark">
+    <span class="my-auto"> <i class="fab fa-twitter media-icon "></i> <i class="fab fa-facebook-f media-icon"></i> <i class="fab fa-instagram media-icon"></i> <i class="fas fa-envelope media-icon"></i></span>
+    <p>© Copyright 2020 Rio Cuarto</p>
+  </footer>
+  <!-- Trigger/Open The Modal -->
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content modal-sm">
+      <span class="close">&times;</span>
+      <div class="container login-container">
+        <div class="row">
+          <div class="col-md login-form-1">
+            <h3>Iniciar sesion</h3>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Your Email *" value="" />
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control" placeholder="Your Password *" value="" />
+            </div>
+            <div class="form-group">
+              <input type="submit" class="btnSubmit" value="Iniciar session" />
+            </div>
+            <div class="form-group">
+              <a href="#" class="btnForgetPwd">Forget Password?</a>
+            </div>       
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--sad-->
+  <div id= "modalreserva" class="modal">
+    <div class = "modal-content modal-lg">
+      <span class="cerrar">&times;</span>
+      <div class="col-md login-form-1">   
+        <form style="align-content: center">
+  			  <div class="form-group">
+  		    	<label for="exampleFormControlInput1">Dirección de Email</label>
+  		    	<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  		  	</div>
+  		  	<div class="form-group">
+  		    	<label for="exampleFormControlSelect1">Destino</label>
+  		    	<select class="form-control" id="exampleFormControlSelect1">
+  			      <option>Villa Mercedes</option>
+  			      <option>Las Higueras</option>
+  			      <option>Egipto</option>
+  			      <option>Chile</option>
+  			      <option>Wuhan</option>
+  			    </select>
+  		  	</div>
+  		  	<div class="form-group">
+  		    	<label for="exampleFormControlSelect2">Habitaciones</label>
+  		    	<select multiple class="form-control" id="exampleFormControlSelect2">
+  			      	<option>1</option>
+  			      	<option>2</option>
+  			      	<option>3</option>
+  			      	<option>4</option>
+  			      	<option>5</option>
+  		    	</select>
+  			  </div>
+        </form>
+      </div>
+     <div class="modal-footer">
+        <button type="button" class="btn close" data-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary"><a href="compraExitosa.html" target="_blank" style="color:white">Realizar Compra</a></button>
+      </div>
+    </div>
+  </div>
+
+  <script src=javascript/reserva.js></script>
+  <script src=javascript/login.js></script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>
